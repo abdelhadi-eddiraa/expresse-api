@@ -1,0 +1,38 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "start": {
+      "name": "start",
+      "command": "yarn start",
+      "runAtStart": true
+    },
+    "yarn install mongoose": {
+      "name": "yarn install mongoose",
+      "command": "yarn install mongoose"
+    },
+    "yarn add mongoose": {
+      "name": "yarn add mongoose",
+      "command": "yarn add mongoose"
+    },
+    "cd src": {
+      "name": "cd src",
+      "command": "cd src"
+    },
+    "npm run start": {
+      "name": "npm run start",
+      "command": "npm run start"
+    },
+    "yarn add jsonwebtoken dotenv bcryptjs": {
+      "name": "yarn add jsonwebtoken dotenv bcryptjs",
+      "command": "yarn add jsonwebtoken dotenv bcryptjs"
+    }
+  }
+}
